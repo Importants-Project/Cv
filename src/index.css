@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  height: 100%;
+}
+.bg {
+  background-image:linear-gradient(to right bottom, rgba(36, 36, 36, 0.8), rgba(0, 0, 0, 0.8)), url("https://thememix.ga/Yazen-theme/images/home2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 9rem 0;
+}
+
+.tile{
+    color: #fd5c55 ;
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin: 6px 0;
+}
+
+.subtitle{
+    font-size: 18px;
+    letter-spacing: .3px;
+    color: #fbf4e0;
+    margin-bottom: 0;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .tile{
+    font-size: 30px;
+  }
+
+  .colsWhite{
+    width: 95%;
+  }
+}

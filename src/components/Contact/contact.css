@@ -1,0 +1,30 @@
+.detail-List{
+    border: 1px solid #fd5c55;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 1rem;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.detail-List p{
+   margin: auto 0;
+}
+
+.detail-List i{
+    color: #fd5c55;
+ }
+
+ .form-control{
+    color: #fd5c55 !important; 
+ }
+
+ .md-form input:focus{
+    border-bottom: 1px solid #fd5c55 !important;
+    box-shadow: 0 1px 0 0 #fd5c55 !important;
+ }
+
+ .md-form textarea:focus{
+    border-bottom: 1px solid #fd5c55 !important;
+    box-shadow: 0 1px 0 0 #fd5c55 !important;
+ }

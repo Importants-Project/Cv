@@ -1,0 +1,97 @@
+.About {
+  position: relative;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  color: #fff;
+  background-color: #1f2233;
+}
+
+.about-image {
+  padding: 7px;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-me .about-info .main-title {
+  margin-bottom: 30px;
+}
+
+.main-title h3 {
+  color: #fd5c55;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.main-title h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 65px;
+  height: 2px;
+  background-color: #fd5c55;
+}
+
+.main-title h2 {
+  position: relative;
+  display: inline-block;
+  color: #fbf4e0;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  padding-bottom: 13px;
+}
+
+.about-info > p {
+  color: #d8d7d6;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.personal-info {
+  padding: 25px 25px 10px;
+  border-radius: 4px;
+  border: 1px solid #fd5c55;
+  margin-bottom: 30px;
+}
+
+.about-info .personal-info p {
+  font-size: 15px;
+  color: #d8d7d6;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+}
+
+.about-info .personal-info p span {
+  font-weight: 600;
+}
+
+.main-btn {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  padding: 14px 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  border-radius: 4px;
+  outline: none;
+  background-color: #fd5c55;
+  border:1px solid #fd5c55;
+  min-width: 175px;
+  transition: all .4s ease-in-out;
+}
+
+.main-btn:hover {
+    background-color: transparent;
+    color: #fd5c55;
+}
