@@ -30,6 +30,8 @@ nav{
     display: inline-block;
     padding: 1rem;
   }
+
+
     
   a{
         border: 0;
@@ -60,7 +62,5 @@ nav{
     }
 
 
-    .navbar-nav{
-      flex-direction: row !important;
-    }
+    
 

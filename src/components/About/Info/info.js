@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBCol, MDBRow } from "mdbreact";
+import Pdf from '../../../assets/Resume.pdf'
 
 const infoData = [
     {
@@ -57,7 +58,7 @@ const Info = () =>
                         ))}
                     </MDBRow>
                 </div>
-                <a href="#!" className="main-btn">Download CV</a>
+                <a href={Pdf} download className="main-btn">Download CV</a>
             </div>
         </MDBCol>
     );
