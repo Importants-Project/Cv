@@ -6,7 +6,7 @@ class Tabs extends Component {
         const { img, link, title } = this.props
         return (
 
-            <MDBCol className='mb-5' xl='4' lg='4' md='6' sm='6'>
+            <MDBCol className='mb-5' xl='4' lg='4' md='3' sm='6'>
                 <MDBView hover>
                     <img
                         width='100%'

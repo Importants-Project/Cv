@@ -18,8 +18,14 @@ const skillsData = [
     },
 
     {
-        text: 'Js/Jquery',
+        text: 'Js',
         value: 50,
+        animation:'fadeInRight'
+    },
+
+    {
+        text: 'Js Plagin',
+        value: 70,
         animation:'fadeInRight'
     },
 
@@ -57,6 +63,12 @@ const skillsData = [
 
     {
         text: 'React Native',
+        value: 40,
+        animation:'fadeInRight'
+    },
+
+    {
+        text: 'Sanity',
         value: 40,
         animation:'fadeInRight'
     },
