@@ -1,4 +1,5 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 import { MDBCol, MDBRow, MDBContainer, } from "mdbreact";
 import './contact.css'
 
@@ -20,16 +21,32 @@ const ContactData = [
 
 ]
 
+
+
 const ContactItem = ({ data }) => (
     <li className='detail-List mb-5'>
         <p>{data.ContactTitle}</p>
         <i className={`${data.ContactIcon}`}></i>
     </li>
 );
+function sendEmail(e) {
+    e.preventDefault();
 
+    emailjs.sendForm('service_gmoleua', 'template_6i2s9ca', e.target, 'user_mVePUX32cFhLkPR6Ql8DU')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset()
+  }
 const contoct = () =>
 
+
     ContactData.length > 0 && (
+     
+
         <section className=" skills " id='Contact' style={{ backgroundColor: 'rgb(31, 34, 51)' }}>
 
             <MDBContainer>
@@ -46,7 +63,7 @@ const contoct = () =>
                     </MDBCol>
 
                     <MDBCol md='8' className=" mb-md-0 mb-5 animate__animated zoomInRight" >
-                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <form onSubmit={sendEmail}>
                             <MDBRow>
                                 <MDBCol md='12'>
                                     <div className="md-form mb-3">
@@ -65,13 +82,15 @@ const contoct = () =>
                                         <textarea type="text" id="message" name="message" placeholder='Your Message' rows="2" className="form-control md-textarea"></textarea>
                                     </div>
 
+                                    <div className="md-form">
+                                    <input type="submit" className="main-btn" value='Send' ></input>
+                                    </div>
+
                                 </MDBCol>
                             </MDBRow>
                         </form>
 
-                        <div className="text-center text-md-left">
-                            <a className="main-btn"  href='#!'>Send</a>
-                        </div>
+                       
                         <div className="status"></div>
                     </MDBCol>
 
