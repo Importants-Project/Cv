@@ -29,7 +29,7 @@ const footerData = [
 const FooterMap = ({ data }) => (
 
 
-    <a target='_blank' href={data.link} className="fb-ic">
+    <a  href={data.link} className="fb-ic">
         <i className={data.icon}> </i>
     </a>
 );
