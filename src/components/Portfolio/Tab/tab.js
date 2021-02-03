@@ -17,7 +17,7 @@ class Tabs extends Component {
                         alt=""
                     />
                     <MDBMask className="flex-center" overlay="black-strong">
-                        <h1 style={{fontSize:22}} ><a className="white-text" href={link}>{title}</a> </h1>
+                        <h1 style={{fontSize:22}} ><a className="white-text" target='__blank' href={link}>{title}</a> </h1>
                     </MDBMask>
                 </MDBView>
             </MDBCol>

@@ -11,13 +11,6 @@ body,
 html {
   height: 100%;
 }
-.bg {
-  background-image:linear-gradient(to right bottom, rgba(36, 36, 36, 0.8), rgba(0, 0, 0, 0.8)), url("https://thememix.ga/Yazen-theme/images/home2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 9rem 0;
-}
 
 .tile{
     color: #fd5c55 ;
