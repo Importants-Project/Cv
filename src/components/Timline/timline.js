@@ -1,13 +1,13 @@
 import React from "react";
 import './timline.css'
 
+import Fade from 'react-reveal/Fade'
 
 
 const timelineData = [
     {
         text: 'Web Coder',
         date: 'Avgust-25-2018',
-        animation:"fadeInRight",
         category: {
 			tag: 'Intern Front-End',
 			color: '#FFDB14'
@@ -20,7 +20,6 @@ const timelineData = [
     {
         text: 'Avirtel',
         date: 'February-01-2019',
-        animation:"fadeInLeft",
         category: {
 			tag: 'Front-end Developer',
 			color: '#e17b77'
@@ -33,7 +32,6 @@ const timelineData = [
     {
         text: 'EuroDesing',
         date: 'Decamber-01-2019',
-        animation:"fadeInRight",
         category: {
 			tag: 'Front-End Developer',
 			color: '#1DA1F2'
@@ -46,7 +44,6 @@ const timelineData = [
     {
         text:'Customar',
         date: 'Avgust-15-2020',
-        animation:"fadeInLeft",
         category: {
 			tag: 'Front-End Developer',
 			color: '#018f69'
@@ -62,7 +59,7 @@ const timelineData = [
 
 const TimelineItem = ({ data }) => (
     <div className="timeline-item " >
-        <div className={`timeline-item-content animate__animated ${data.animation}`}>
+        <div className={`timeline-item-content `}>
             <span className="tag" style={{ background: data.category.color }}>
                 {data.category.tag}
             </span>
@@ -85,6 +82,7 @@ const TimelineItem = ({ data }) => (
 const Timeline = () =>
     timelineData.length > 0 && (
         <section className='skills' id='Timline' style={{backgroundColor:"#1f2233"}}>
+            <Fade left>
             <div className="main-title text-center mb-5">
                 <h2>My Resume</h2>
             </div>
@@ -93,6 +91,7 @@ const Timeline = () =>
                 <TimelineItem data={data} key={idx} />
             ))}
         </div>
+        </Fade>
         </section>
     );
 

@@ -6,7 +6,6 @@ class Home extends Component {
         return (
             <div className="bg" id='Home' style={{background:'#24283d'}}>
                 <Testimonials />
-
             </div>
         );
     }

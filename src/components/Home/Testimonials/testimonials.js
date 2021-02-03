@@ -1,6 +1,6 @@
 import React from "react";
 import {  MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
-
+import Zoom from 'react-reveal/Zoom';
 class HoverPage extends React.Component {
   render() {
     return (
@@ -8,7 +8,8 @@ class HoverPage extends React.Component {
         <MDBRow>
           
           <MDBCol md="12">
-            <MDBView className='animate__animated  slideInUp' >
+            <MDBView >
+            <Zoom>
               <img
                 src="https://avatars3.githubusercontent.com/u/43238830?s=460&u=e2eaa8762c366a72f04534bcceab912574bab3b5&v=4"
                 className="img-fluid m-auto rounded-circle w-25 "
@@ -18,7 +19,7 @@ class HoverPage extends React.Component {
               <h1 className='tile text-center  '>Kenan Boyukkishiyev</h1>
 
               <p className='subtitle text-center '>I am Front-End Developer</p>
-              
+              </Zoom>
             </MDBView>
           </MDBCol>
          
