@@ -38,7 +38,7 @@ const FooterMap = ({ data }) => (
 const Footer = () => 
 
     footerData.length > 0 && (
-        <footer className="page-footer font-small " style={{ backgroundColor: "#24283d", height: '370px' }}>
+        <footer className="page-footer font-small " style={{ backgroundColor: "#24283d", height: 230 }}>
 
             <div className="container">
 
