@@ -5,7 +5,7 @@ import './contact.css'
 
 const ContactData = [
     {
-        ContactTitle: 'Baku,  Azerbayjan',
+        ContactTitle: 'Baku,  Azerbaijan',
         ContactIcon: "fas fa-map-marker-alt fa-2x",
     },
 
@@ -51,10 +51,10 @@ const contoct = () =>
 
             <MDBContainer>
                 <div className="main-title text-center mb-5">
-                    <h2>Contoct Me</h2>
+                    <h2>Contact me</h2>
                 </div>
                 <MDBRow>
-                    <MDBCol md='4' className="text-center animate__animated zoomInLeft">
+                    <MDBCol md='4' className="text-center">
                         <ul style={{ display: 'block' }} className="list-unstyled  mb-0">
                             {ContactData.map((data, idx) => (
                                 <ContactItem data={data} key={idx} />
@@ -62,7 +62,7 @@ const contoct = () =>
                         </ul>
                     </MDBCol>
 
-                    <MDBCol md='8' className=" mb-md-0 mb-5 animate__animated zoomInRight" >
+                    <MDBCol md='8' className=" mb-md-0 mb-5 " >
                         <form onSubmit={sendEmail}>
                             <MDBRow>
                                 <MDBCol md='12'>

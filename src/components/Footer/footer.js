@@ -29,7 +29,7 @@ const footerData = [
 const FooterMap = ({ data }) => (
 
 
-    <a  href={data.link} className="fb-ic">
+    <a  href={data.link} target='__blank' className="fb-ic">
         <i className={data.icon}> </i>
     </a>
 );
@@ -55,9 +55,7 @@ const Footer = () =>
                             ))}
                         </div>
 
-                        <div className=" flex-center">
-                            <p>All Right Reserved © 2020 ThemeMix</p>
-                        </div>
+                      
                     </MDBCol>
 
                 </MDBRow>

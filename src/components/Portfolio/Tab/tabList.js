@@ -14,7 +14,7 @@ import ReactImg from '../../../assets/img/reactImg.png';
 import ReactBarber from '../../../assets/img/reactBarber.jpg';
 import ReactFood from '../../../assets/img/reactFood.jpg'
 import ReactShop from '../../../assets/img/reactShop.jpg'
-
+import Karabag from '../../../assets/img/karabag.jpg'
 class TabList extends Component {
 
     state = {
@@ -47,8 +47,8 @@ class TabList extends Component {
                         <TabsRow img={ReactBarber} title='React Barber' link='https://barber-react.netlify.app/home' />
                         <TabsRow img={ReactFood} title='React Food' link='https://foodreact.netlify.app/' />
                         <TabsRow img={ReactShop} title='React Shop' link='https://shopbyme.netlify.app/' />
-
-
+                        <TabsRow img={Karabag} title='Karabakh Scent' link='https://karabakhscent.az/' />
+                        
                     </MDBRow>
 
                 </Tab>
@@ -62,6 +62,7 @@ class TabList extends Component {
                         <TabsRow img={Apple} title='appleservicebaku' link='https://www.appleservicebaku.az/' />
                         <TabsRow img={EduPro} title='Edu Pro' link='http://edupro.az/' />
                         <TabsRow img={Gent} title='Gent' link='https://beta.gent.az' />
+                        <TabsRow img={Karabag} title='Karabakh Scent' link='https://karabakhscent.az/' />
                     </MDBRow>
 
                 </Tab>

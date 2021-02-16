@@ -4,7 +4,7 @@ import Testimonials from './Testimonials/testimonials';
 class Home extends Component {
     render() {
         return (
-            <div className="bg" id='Home' style={{background:'#24283d'}}>
+            <div className="bg" id='Home' style={{background:'#24283d', height:730}}>
                 <Testimonials />
             </div>
         );

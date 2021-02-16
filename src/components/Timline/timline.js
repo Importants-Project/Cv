@@ -14,7 +14,7 @@ const timelineData = [
 		},
         link: {
             url: 'https://www.webcoder.az',
-            text: 'Check it'
+            text: 'Check'
         }
     },
     {

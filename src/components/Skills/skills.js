@@ -23,7 +23,7 @@ const skillsData = [
     },
 
     {
-        text: 'Js Plagin',
+        text: 'Js Plugin ',
         value: 70,
     },
 
@@ -43,21 +43,6 @@ const skillsData = [
 
     },
 
-    {
-        text: 'Vue',
-        value: 30,
-
-    },
-
-    {
-        text: 'Flutter',
-        value: 40,
-    },
-
-    {
-        text: 'React Native',
-        value: 40,
-    },
 
     {
         text: 'Sanity',
@@ -70,11 +55,11 @@ const skillsData = [
 const Skill = ({ data }) => (
 
 
-    <MDBCol lg="4" sm="6" className={`colsWhite`}>
+    <MDBCol lg="3" md='4' sm="6" >
         <LightSpeed left>
 
             <div className="progress-container">
-                <span className="percent" style={{ left: `calc(${data.value}% - 21px)` }}>{data.value}%</span>
+                <span className="percent" style={{ left: `calc(${data.value}% - 40px)` }}>{data.value}%</span>
                 <h4>{data.text}</h4>
                 <MDBProgress value={data.value} className="my-2 " />
             </div>
