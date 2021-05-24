@@ -29,7 +29,7 @@ const skillsData = [
 
     {
         text: 'Bootstrap',
-        value: 80,
+        value: 90,
     },
 
     {
@@ -52,37 +52,43 @@ const skillsData = [
 
 
 
-const Skill = ({ data }) => (
 
 
-    <MDBCol lg="3" md='4' sm="6" >
-        <LightSpeed left>
+const ProgressBarPage = () => {
 
-            <div className="progress-container">
-                <span className="percent" style={{ left: `calc(${data.value}% - 40px)` }}>{data.value}%</span>
-                <h4>{data.text}</h4>
-                <MDBProgress value={data.value} className="my-2 " />
-            </div>
-        </LightSpeed>
+  
 
-    </MDBCol>
-);
+    return (
 
-const ProgressBarPage = () =>
-    skillsData.length > 0 && (
         <section className='skills' id="Skills" >
             <div className="main-title text-center mb-5">
                 <h2>My Skills</h2>
             </div>
             <MDBContainer>
                 <MDBRow>
-                    {skillsData.map((data, idx) => (
-                        <Skill data={data} key={idx} />
-                    ))}
+                    { skillsData.map((post,index) =>{
+                        return(
+                            <MDBCol lg="3" md='4' sm="6"  className='mr-2'>
+                            <LightSpeed left>
+    
+                                <div className="progress-container" key={index}>
+                                    <span className="percent" style={{ left: `calc(${post.value}% - 40px)` }}>{post.text}%</span>
+                                    <h4>{post.text}</h4>
+                                    <MDBProgress value={post.value} className="my-2 " />
+                                </div>
+                            </LightSpeed>
+    
+    
+                        </MDBCol>
+                        )
+                    })}
+
                 </MDBRow>
+
             </MDBContainer>
         </section>
-    );
+    )
+}
 
 
-export default ProgressBarPage;
+export default ProgressBarPage

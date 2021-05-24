@@ -23,29 +23,24 @@ const ContactData = [
 
 
 
-const ContactItem = ({ data }) => (
-    <li className='detail-List mb-5'>
-        <p>{data.ContactTitle}</p>
-        <i className={`${data.ContactIcon}`}></i>
-    </li>
-);
+
+
 function sendEmail(e) {
     e.preventDefault();
 
     emailjs.sendForm('service_gmoleua', 'template_6i2s9ca', e.target, 'user_mVePUX32cFhLkPR6Ql8DU')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
 
-      e.target.reset()
-  }
-const contoct = () =>
+    e.target.reset()
+}
 
 
-    ContactData.length > 0 && (
-     
+const contocts = () => {
+    return (
 
         <section className=" skills " id='Contact' style={{ backgroundColor: 'rgb(31, 34, 51)' }}>
 
@@ -56,9 +51,15 @@ const contoct = () =>
                 <MDBRow>
                     <MDBCol md='4' className="text-center">
                         <ul style={{ display: 'block' }} className="list-unstyled  mb-0">
-                            {ContactData.map((data, idx) => (
-                                <ContactItem data={data} key={idx} />
-                            ))}
+                            {ContactData.map((data, index) => {
+                                return (
+                                    <li className='detail-List mb-5' key={index}>
+                                        <p>{data.ContactTitle}</p>
+                                        <i className={data.ContactIcon}></i>
+                                    </li>
+                                )
+
+                            })}
                         </ul>
                     </MDBCol>
 
@@ -83,14 +84,14 @@ const contoct = () =>
                                     </div>
 
                                     <div className="md-form">
-                                    <input type="submit" className="main-btn" value='Send' ></input>
+                                        <input type="submit" className="main-btn" value='Send' ></input>
                                     </div>
 
                                 </MDBCol>
                             </MDBRow>
                         </form>
 
-                       
+
                         <div className="status"></div>
                     </MDBCol>
 
@@ -100,5 +101,6 @@ const contoct = () =>
         </section>
     )
 
+}
 
-export default contoct;
+export default contocts;

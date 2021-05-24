@@ -12,9 +12,11 @@ import EduPro from '../../../assets/img/edupro.jpg';
 import Apple from '../../../assets/img/apple.png';
 import ReactImg from '../../../assets/img/reactImg.png';
 import ReactBarber from '../../../assets/img/reactBarber.jpg';
-import ReactFood from '../../../assets/img/reactFood.jpg'
-import ReactShop from '../../../assets/img/reactShop.jpg'
-import Karabag from '../../../assets/img/karabag.jpg'
+import ReactFood from '../../../assets/img/reactFood.jpg';
+import ReactShop from '../../../assets/img/reactShop.jpg';
+import Karabag from '../../../assets/img/karabag.jpg';
+import GrayAz from '../../../assets/img/grayAz.jpg';
+
 class TabList extends Component {
 
     state = {
@@ -48,7 +50,7 @@ class TabList extends Component {
                         <TabsRow img={ReactFood} title='React Food' link='https://foodreact.netlify.app/' />
                         <TabsRow img={ReactShop} title='React Shop' link='https://shopbyme.netlify.app/' />
                         <TabsRow img={Karabag} title='Karabakh Scent' link='https://karabakhscent.az/' />
-                        
+                        <TabsRow img={GrayAz} title='Gray' link='https://gray.az/' />
                     </MDBRow>
 
                 </Tab>
@@ -63,6 +65,7 @@ class TabList extends Component {
                         <TabsRow img={EduPro} title='Edu Pro' link='http://edupro.az/' />
                         <TabsRow img={Gent} title='Gent' link='https://beta.gent.az' />
                         <TabsRow img={Karabag} title='Karabakh Scent' link='https://karabakhscent.az/' />
+                        <TabsRow img={GrayAz} title='Gray' link='https://gray.az/' />
                     </MDBRow>
 
                 </Tab>
