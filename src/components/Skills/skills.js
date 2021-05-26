@@ -68,11 +68,11 @@ const ProgressBarPage = () => {
                 <MDBRow>
                     { skillsData.map((post,index) =>{
                         return(
-                            <MDBCol lg="3" md='4' sm="6"  className='mr-2'>
+                            <MDBCol lg="3" md='4' sm="6"  >
                             <LightSpeed left>
     
                                 <div className="progress-container" key={index}>
-                                    <span className="percent" style={{ left: `calc(${post.value}% - 40px)` }}>{post.text}%</span>
+                                    <span className="percent" style={{ left: `calc(${post.value}% - 18px)` }}>{post.value}%</span>
                                     <h4>{post.text}</h4>
                                     <MDBProgress value={post.value} className="my-2 " />
                                 </div>
