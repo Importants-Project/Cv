@@ -16,6 +16,7 @@ import ReactFood from '../../../assets/img/reactFood.jpg';
 import ReactShop from '../../../assets/img/reactShop.jpg';
 import Karabag from '../../../assets/img/karabag.jpg';
 import GrayAz from '../../../assets/img/grayAz.jpg';
+import ReactShopContext from '../../../assets/img/shopContext.jpg'
 
 class TabList extends Component {
 
@@ -51,6 +52,8 @@ class TabList extends Component {
                         <TabsRow img={ReactShop} title='React Shop' link='https://shopbyme.netlify.app/' />
                         <TabsRow img={Karabag} title='Karabakh Scent' link='https://karabakhscent.az/' />
                         <TabsRow img={GrayAz} title='Gray' link='https://gray.az/' />
+                        <TabsRow img={ReactShopContext} title='React Shop Context' link='https://shop-react-context.netlify.app/' />
+
                     </MDBRow>
 
                 </Tab>
@@ -77,7 +80,7 @@ class TabList extends Component {
                         <TabsRow img={ReactBarber} title='React Barber' link='https://barber-react.netlify.app/home' />
                         <TabsRow img={ReactFood} title='React Food' link='https://foodreact.netlify.app/' />
                         <TabsRow img={ReactShop} title='React Shop' link='https://shopbyme.netlify.app/' />
-
+                        <TabsRow img={ReactShopContext} title='React Shop Context' link='https://shop-react-context.netlify.app/' />
                     </MDBRow>
                 </Tab>
 
