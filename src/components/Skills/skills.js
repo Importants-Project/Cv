@@ -16,10 +16,15 @@ const skillsData = [
         value: 100,
 
     },
+    {
+        text: 'Bootstrap',
+        value: 90,
+    },
 
     {
-        text: 'Js',
-        value: 50,
+        text: 'Git',
+        value: 80,
+
     },
 
     {
@@ -28,8 +33,8 @@ const skillsData = [
     },
 
     {
-        text: 'Bootstrap',
-        value: 90,
+        text: 'Js',
+        value: 50,
     },
 
     {
@@ -43,6 +48,15 @@ const skillsData = [
 
     },
 
+    {
+        text: 'Figma ',
+        value: 40,
+    },
+
+    {
+        text: 'Adobe XD',
+        value: 40,
+    },
 
     {
         text: 'Sanity',

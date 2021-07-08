@@ -17,6 +17,9 @@ import ReactShop from '../../../assets/img/reactShop.jpg';
 import Karabag from '../../../assets/img/karabag.jpg';
 import GrayAz from '../../../assets/img/grayAz.jpg';
 import ReactShopContext from '../../../assets/img/shopContext.jpg'
+import On5Sifir7 from '../../../assets/img/on5sifir7.jpg'
+
+
 
 class TabList extends Component {
 
@@ -53,7 +56,9 @@ class TabList extends Component {
                         <TabsRow img={Karabag} title='Karabakh Scent' link='https://karabakhscent.az/' />
                         <TabsRow img={GrayAz} title='Gray' link='https://gray.az/' />
                         <TabsRow img={ReactShopContext} title='React Shop Context' link='https://shop-react-context.netlify.app/' />
+                        <TabsRow img={On5Sifir7} title='On5 Sifir7 ' link=' http://www.on5sifir7filmhaftasi.com/' />
 
+                       
                     </MDBRow>
 
                 </Tab>
@@ -69,6 +74,8 @@ class TabList extends Component {
                         <TabsRow img={Gent} title='Gent' link='https://beta.gent.az' />
                         <TabsRow img={Karabag} title='Karabakh Scent' link='https://karabakhscent.az/' />
                         <TabsRow img={GrayAz} title='Gray' link='https://gray.az/' />
+                        <TabsRow img={On5Sifir7} title='On5 Sifir7 ' link=' http://www.on5sifir7filmhaftasi.com/' />
+
                     </MDBRow>
 
                 </Tab>

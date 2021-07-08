@@ -15,11 +15,6 @@ const footerData = [
     },
 
     {
-        link: "https://www.instagram.com/boyukkishiyev_kenan/?hl=ru",
-        icon: 'fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x',
-        className: 'ins-ic'
-    },
-    {
         link:"https://github.com/KenanBoyukkishiyev1997?tab=repositories",
         icon:"fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"
     }

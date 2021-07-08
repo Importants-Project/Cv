@@ -15,7 +15,7 @@ const ContactData = [
     },
 
     {
-        ContactTitle: 'boyukkishiyev@gmail.com:',
+        ContactTitle: 'boyukkishiyevk@gmail.com',
         ContactIcon: 'fas fa-envelope fa-2x',
     },
 
