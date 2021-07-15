@@ -48,7 +48,7 @@ class TabList extends Component {
                         <TabsRow img={Apple} title='appleservicebaku' link='https://www.appleservicebaku.az/' />
                         <TabsRow img={vueSong} title='Vue js Song' link='https://song-vuejs.netlify.app/' />
                         <TabsRow img={Ps4} title='Ps 4' link='https://ps4-game-shop.netlify.app/' />
-                        <TabsRow img={Gent} title='Gent' link='https://beta.gent.az' />
+                        <TabsRow img={Gent} title='Gent' link='https://gent.az/' />
                         <TabsRow img={ReactImg} title='React Photo' link='https://bkreact-photo.netlify.app/' />
                         <TabsRow img={ReactBarber} title='React Barber' link='https://barber-react.netlify.app/home' />
                         <TabsRow img={ReactFood} title='React Food' link='https://foodreact.netlify.app/' />
@@ -71,7 +71,7 @@ class TabList extends Component {
                         <TabsRow img={Club941} title='Club 941' link='https://az.club941.com/' />
                         <TabsRow img={Apple} title='appleservicebaku' link='https://www.appleservicebaku.az/' />
                         <TabsRow img={EduPro} title='Edu Pro' link='http://edupro.az/' />
-                        <TabsRow img={Gent} title='Gent' link='https://beta.gent.az' />
+                        <TabsRow img={Gent} title='Gent' link='https://gent.az/' />
                         <TabsRow img={Karabag} title='Karabakh Scent' link='https://karabakhscent.az/' />
                         <TabsRow img={GrayAz} title='Gray' link='https://gray.az/' />
                         <TabsRow img={On5Sifir7} title='On5 Sifir7 ' link=' http://www.on5sifir7filmhaftasi.com/' />

@@ -52,7 +52,7 @@ const Info = () =>
                         <h3>Discover</h3>
                         <h2>About Me</h2>
                     </div>
-                    <p>My name is Kanan Boyukkishiyev. I'm a Front-End  Developer  and I'm very passionate and dedicated to my work .With 2 years experience as a Front-End Developer, I have acquired the skills necessary to build great and premium websites.</p>
+                    <p> I'm very passionate and dedicated to my work .With 2 years experience as a Front-End Developer, I have acquired the skills necessary to build great and premium websites.</p>
                     <div className="personal-info">
                         <MDBRow>
                             {infoData.map((data, idx) => (
