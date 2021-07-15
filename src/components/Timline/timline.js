@@ -31,7 +31,7 @@ const timelineData = [
     },
     {
         text: 'EuroDesing',
-        date: 'Decamber-01-2019',
+        date: 'December-01-2019',
         category: {
             tag: 'Front-End Developer',
             color: '#1DA1F2'
