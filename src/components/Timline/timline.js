@@ -43,7 +43,7 @@ const timelineData = [
     },
     {
         text: 'Customar',
-        date: 'Avgust-15-2020',
+        date: 'August-15-2020',
         category: {
             tag: 'Front-End Developer',
             color: '#018f69'
