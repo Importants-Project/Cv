@@ -26,7 +26,7 @@ const infoData = [
 
     {
         title: 'Experience',
-        text: '2+ Years',
+        text: '3 Years',
     },
 
     {
@@ -52,7 +52,7 @@ const Info = () =>
                         <h3>Discover</h3>
                         <h2>About Me</h2>
                     </div>
-                    <p> I'm very passionate and dedicated to my work .With 2 years experience as a Front-End Developer, I have acquired the skills necessary to build great and premium websites.</p>
+                    <p> I'm very passionate and dedicated to my work .With 3 years experience as a Front-End Developer, I have acquired the skills necessary to build great and premium websites.</p>
                     <div className="personal-info">
                         <MDBRow>
                             {infoData.map((data, idx) => (

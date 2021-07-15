@@ -18,7 +18,7 @@ class HoverPage extends React.Component {
 
               <h1 className='tile text-center  '>Kenan Boyukkishiyev</h1>
 
-              <p className='subtitle text-center '>İ am Front-End Developer</p>
+              <p className='subtitle text-center '>I am Front-End Developer</p>
               </Zoom>
             </MDBView>
           </MDBCol>
