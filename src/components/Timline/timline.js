@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade'
 const timelineData = [
     {
         text: 'Web Coder',
-        date: 'Avgust-25-2018',
+        date: 'August-25-2018',
         category: {
             tag: 'Intern Front-End',
             color: '#FFDB14'
