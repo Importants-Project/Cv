@@ -38,8 +38,17 @@ const skillsData = [
     },
 
     {
-        text: 'WordPress',
-        value: 50,
+        text: 'Vue',
+        value: 70,
+    },
+
+    {
+        text: 'Nuxt',
+        value: 70,
+    },
+    {
+        text: 'Vuex',
+        value: 70,
     },
 
     {
@@ -53,15 +62,7 @@ const skillsData = [
         value: 40,
     },
 
-    {
-        text: 'Adobe XD',
-        value: 40,
-    },
-
-    {
-        text: 'Sanity',
-        value: 40,
-    },
+  
 ]
 
 

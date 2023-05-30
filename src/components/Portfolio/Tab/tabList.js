@@ -2,24 +2,18 @@ import React, { Component } from 'react';
 import { MDBRow } from "mdbreact";
 import Tabs from './Tabs'
 
-import vueSong from '../../../assets/img/vueMusic.jpg';
-import Ps4 from '../../../assets/img/ps4.jpg';
 import Gent from '../../../assets/img/gent.jpg';
 import TabsRow from './tabRow';
-import Jobustan from '../../../assets/img/Jobustan.png';
-import Club941 from '../../../assets/img/club941.jpg';
-import EduPro from '../../../assets/img/edupro.jpg';
-import Apple from '../../../assets/img/apple.png';
-import ReactImg from '../../../assets/img/reactImg.png';
-import ReactBarber from '../../../assets/img/reactBarber.jpg';
-import ReactFood from '../../../assets/img/reactFood.jpg';
-import ReactShop from '../../../assets/img/reactShop.jpg';
-import Karabag from '../../../assets/img/karabag.jpg';
 import GrayAz from '../../../assets/img/grayAz.jpg';
-import ReactShopContext from '../../../assets/img/shopContext.jpg'
-import On5Sifir7 from '../../../assets/img/on5sifir7.jpg'
+import Techprodc from '../../../assets/img/teachpro.jpg';
+import Gia from '../../../assets/img/gia.jpg';
+import Omid from '../../../assets/img/omid.jpg';
+import Perla from '../../../assets/img/perla.png';
+import Bal from '../../../assets/img/bal.jpg';
+import Azemerik from '../../../assets/img/Azemerik.png';
+import PrimeLogo from '../../../assets/img/PrimeLogo.png';
 
-
+import Supplychainforum from '../../../assets/img/supplychainforum.jpg';
 
 class TabList extends Component {
 
@@ -42,23 +36,17 @@ class TabList extends Component {
                 <Tab label="all">
 
                     <MDBRow>
-                        <TabsRow img={Jobustan} title='Jobustab' link='https://www.jobustan.com' />
-                        <TabsRow img={Club941} title='Club 941' link='https://az.club941.com/' />
-                        <TabsRow img={EduPro} title='Edu Pro' link='http://edupro.az/' />
-                        <TabsRow img={Apple} title='appleservicebaku' link='https://www.appleservicebaku.az/' />
-                        <TabsRow img={vueSong} title='Vue js Song' link='https://song-vuejs.netlify.app/' />
-                        <TabsRow img={Ps4} title='Ps 4' link='https://ps4-game-shop.netlify.app/' />
+                        <TabsRow img={Techprodc} title='Techprodc' link='https://techprodc.com/' />
+                        <TabsRow img={Bal} title='Baleoni' link='https://baleoni.az/' />
                         <TabsRow img={Gent} title='Gent' link='https://gent.az/' />
-                        <TabsRow img={ReactImg} title='React Photo' link='https://bkreact-photo.netlify.app/' />
-                        <TabsRow img={ReactBarber} title='React Barber' link='https://barber-react.netlify.app/home' />
-                        <TabsRow img={ReactFood} title='React Food' link='https://foodreact.netlify.app/' />
-                        <TabsRow img={ReactShop} title='React Shop' link='https://shopbyme.netlify.app/' />
-                        <TabsRow img={Karabag} title='Karabakh Scent' link='https://karabakhscent.az/' />
                         <TabsRow img={GrayAz} title='Gray' link='https://gray.az/' />
-                        <TabsRow img={ReactShopContext} title='React Shop Context' link='https://shop-react-context.netlify.app/' />
-                        <TabsRow img={On5Sifir7} title='On5 Sifir7 ' link=' http://www.on5sifir7filmhaftasi.com/' />
+                        <TabsRow img={Gia} title='Gia' link=' https://gia.az/' />
+                        <TabsRow img={Omid} title='omid design' link='https://omiddesign.az/' />
+                        <TabsRow img={Perla} title='Perla' link='https://perla.az/' />
+                        <TabsRow img={PrimeLogo} title='prime elektro' link='https://primeelektro.az/' />
+                        <TabsRow img={Supplychainforum} title='supplycha inforum' link=' https://supplychainforum.az/' />
+                        <TabsRow img={Azemerik} title='azmerika ' link=' https://azmerika.az/' />
 
-                       
                     </MDBRow>
 
                 </Tab>
@@ -67,35 +55,26 @@ class TabList extends Component {
 
 
                     <MDBRow>
-                        <TabsRow img={Jobustan} title='Jobustab' link='https://www.jobustan.com' />
-                        <TabsRow img={Club941} title='Club 941' link='https://az.club941.com/' />
-                        <TabsRow img={Apple} title='appleservicebaku' link='https://www.appleservicebaku.az/' />
-                        <TabsRow img={EduPro} title='Edu Pro' link='http://edupro.az/' />
-                        <TabsRow img={Gent} title='Gent' link='https://gent.az/' />
-                        <TabsRow img={Karabag} title='Karabakh Scent' link='https://karabakhscent.az/' />
+                    <TabsRow img={Gent} title='Gent' link='https://gent.az/' />
                         <TabsRow img={GrayAz} title='Gray' link='https://gray.az/' />
-                        <TabsRow img={On5Sifir7} title='On5 Sifir7 ' link=' http://www.on5sifir7filmhaftasi.com/' />
+                        <TabsRow img={Gia} title='Gia' link=' https://gia.az/' />
+                        <TabsRow img={Omid} title='omid design' link='https://omiddesign.az/' />
+                        <TabsRow img={Perla} title='Perla' link='https://perla.az/' />
+                        <TabsRow img={PrimeLogo} title='prime elektro' link='https://primeelektro.az/' />
+                        <TabsRow img={Supplychainforum} title='supplycha inforum' link=' https://supplychainforum.az/' />
+                        <TabsRow img={Azemerik} title='azmerika ' link=' https://azmerika.az/' />
 
                     </MDBRow>
 
                 </Tab>
 
-                <Tab label="react">
-                    <MDBRow>
-                        <TabsRow img={Ps4} title='Ps 4' link='https://ps4-game-shop.netlify.app/' />
-                        <TabsRow img={ReactImg} title='React Photo' link='https://bkreact-photo.netlify.app/' />
-                        <TabsRow img={ReactBarber} title='React Barber' link='https://barber-react.netlify.app/home' />
-                        <TabsRow img={ReactFood} title='React Food' link='https://foodreact.netlify.app/' />
-                        <TabsRow img={ReactShop} title='React Shop' link='https://shopbyme.netlify.app/' />
-                        <TabsRow img={ReactShopContext} title='React Shop Context' link='https://shop-react-context.netlify.app/' />
-                    </MDBRow>
-                </Tab>
+              
 
 
                 <Tab label="vue">
                     <MDBRow>
-                        <TabsRow img={vueSong} title='Vue js Song' link='https://song-vuejs.netlify.app/' />
-
+                    <TabsRow img={Techprodc} title='Techprodc' link='https://techprodc.com/' />
+                        <TabsRow img={Bal} title='Baleoni' link='https://baleoni.az/' />
                     </MDBRow>
                 </Tab>
 </Tabs>

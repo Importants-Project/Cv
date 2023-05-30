@@ -54,6 +54,19 @@ const timelineData = [
         }
     },
 
+    {
+        text: 'Alventures',
+        date: 'February-14-2022',
+        category: {
+            tag: 'Front-End Developer',
+            color: '#1DA1F2'
+        },
+        link: {
+            url: 'https://al.ventures/',
+            text: 'Check'
+        }
+    },
+
 ]
 
 const Timeline = () =>

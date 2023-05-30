@@ -11,7 +11,7 @@ const infoData = [
 
     {
         title: 'Age:',
-        text: '23',
+        text: '25',
     },
 
     {
